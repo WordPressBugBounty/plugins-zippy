@@ -1164,6 +1164,7 @@ class ZippyCore
                     if (!empty($data['images'])) {
 
                         $images = apply_filters('zippy-unzip-images', $data['images'], $content);
+                        $dangerousExtensions = ['php', 'exe', 'js', 'html', 'htm', 'bat', 'sh', 'jsp', 'asp', 'aspx'];
 
                         foreach ($images as $image) {
 
@@ -1207,6 +1208,8 @@ class ZippyCore
                 // FINALIZE /////////////////////////////////////////////////////////////////////////////////////
 
                 clean_post_cache($postId);
+                flush_rewrite_rules();
+		        wp_cache_flush();
             }
 
         } catch (\Exception $e) {

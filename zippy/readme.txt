@@ -2,11 +2,10 @@
 Contributors: loyaltymanufaktur
 Tags: backup, migration, zip files, archive, custom post types
 Requires at least: 4.9
-Tested up to: 6.6
-Stable tag: 1.6.10
+Tested up to: 6.7
+Stable tag: 1.6.11
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Short description: Archive posts and pages as zip file and unpack them back even on the other website!
 
 == Description ==
 
@@ -64,6 +63,11 @@ Be sure that your user account has permissions to edit posts ("edit_post" capabi
 1. Links to archive the post and to extract
 
 == Changelog ==
+
+= 1.6.11 =
+* Fixed import issues.
+* Fixed cache issues.
+* Tested up to Wordpress 6.7.
 
 = 1.6.10 =
 * Enhanced security.
