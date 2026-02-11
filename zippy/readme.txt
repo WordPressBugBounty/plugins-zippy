@@ -1,11 +1,13 @@
 === Zippy ===
-Contributors: loyaltymanufaktur
+Contributors: loyaltymanufaktur, madeinua
 Tags: backup, migration, zip files, archive, custom post types
 Requires at least: 4.9
 Tested up to: 6.8
 Stable tag: 1.7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Incredibly easy solution to archive pages and posts as zip file and unpack them back even on the other website!
 
 == Description ==
 
